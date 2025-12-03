@@ -1,17 +1,12 @@
 ## The MemProtMD API
-The MemProtMD API connects the MemProtMD database to applications such
-as this site. The API is free to use for any application, provided data
-obtained through it is properly attributed.
+The MemProtMD API provides programmatic access to the MemProtMD database, enabling integration with external applications, including this platform. The API is freely available for use in any application, provided that all data retrieved through the API is appropriately attributed to MemProtMD.
 
 ### General notes
-We recommend using [Postman](https://www.getpostman.com/) to check that
-the API methods shown here behave as expected. Postman can also output
-code snippets in a number of languages for pipeline applications. examples
-in this guide use Python's Requests library.
+To validate API functionality, we recommend using [Postman](https://www.getpostman.com/) for testing the endpoints described in this documentation. Postman also supports automatic generation of code snippets in multiple programming languages for integration into computational workflows.  
+All examples provided in this guide utilize Python with the `requests` library.
 
-### User guide
-Currently we provide a reference implementation as a Jupyter notebook. If
-you make something better or more user friendly, make a pull request and
-we'll be eternally grateful.
+## User Guide
+Reference implementation is currently available as a Jupyter notebook. Users are encouraged to contribute improvements or more user-friendly solutions by submitting a pull request to the repository.
 
-[View reference notebook](MemProtMD-API.ipynb)
+[Access the reference notebook](MemProtMD-API.ipynb)
+
